@@ -3,12 +3,17 @@ import './css/Upperbody.css'
 function Upperbody(){
     
      const Data = [
-               {id:1 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Liked.png?raw=true", title:'Liked Songs'},
+               {id:1 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Liked.png?raw=true", title:'Liked Song'},
                {id:2 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image4.png?raw=true", title:'Neffex Playlist'},
                {id:3 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image3.png?raw=true", title:'K/DA'},
                {id:4 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image3.png?raw=true", title:'Liked Songs'},
                {id:5 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image2.png?raw=true", title:"Dance/ Electronix mix"}
          ]
+
+
+
+         const id = Data.filter((recent) => recent.id%2==0)
+
 
          const Data1 = [
             {id:1 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image9.png?raw=true" , title:"weekly motivation"},
@@ -18,6 +23,11 @@ function Upperbody(){
             {id:5 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image5.png?raw=true", title:"The Stories of Ma.."},
             {id:6 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image10.png?raw=true", title:"Motivation Daily B.."}
          ]
+
+
+         const id1 = Data.filter((recently) => recently.id1%2==0)
+
+
     return(
 <>
 
@@ -119,6 +129,9 @@ function Upperbody(){
                     <img src= {datas.img} alt= {datas.title} />
                     </div>
              ))}
+
+              
+
              </div>
           </div>
 
@@ -128,12 +141,13 @@ function Upperbody(){
               <p>See All</p>
             </div>
             <div className="songs-playlist">
-                
+
             {Data1.map((Datas) => (
                 <div key={Datas.id} className= "card2" >
                     <img src= {Datas.img} alt= {Datas.title} />
                </div>
              ))}
+            
              
             </div>
           </div>

@@ -124,7 +124,7 @@ return(
                   src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Liked.png?raw=true"
                   alt="Liked Songs"
                 />
-                <p>Liked Songs</p>
+                <p>Liked Song</p>
               </div>
               <div className="card1">
                 <img
