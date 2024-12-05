@@ -209,7 +209,7 @@ return(
           </div>
         </div>
       </div>
-
+      
       <footer>
         <div className="homei">
             <img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image11.png?raw=true" alt="" />

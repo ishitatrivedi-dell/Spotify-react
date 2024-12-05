@@ -1,0 +1,49 @@
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 5em;
+    background-color: #303030;
+    justify-content: space-between;
+}
+
+.homei {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.homei > img {
+    width: 3em;
+    height: 3.5em;
+    margin: 0.2em;
+    margin-top: 1em;
+}
+.p1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0em;
+}
+.heart{
+    display: flex;
+    width: 2em;
+    height: 2em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+.play {
+    display: flex;
+    margin-left: 20em ;
+}
+
+.play > img {
+   height: 3em;
+   width: 25em;
+}
+
+.play1{
+    display: flex;
+   margin-left: 6em;
+
+}
