@@ -2,8 +2,7 @@
 
 Welcome to the **Spotify Clone** project! This is a frontend-only web application built with React.js, designed to replicate the core user interface of Spotify. The project focuses on creating a responsive and visually appealing music streaming interface, featuring sections like personalized greetings, playlists, and recommended shows.
 
-![Spotify Clone Screenshot](https://via.placeholder.com/800x400.png?text=Spotify+Clone+Screenshot)  
-*(Replace this with the actual screenshot of the app, e.g., the one you provided!)*
+<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/16411535-c1c7-4247-9bc2-7f0facf3d993" />
 
 ## Table of Contents
 - [Features](#features)
